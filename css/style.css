@@ -1,0 +1,134 @@
+/* -------------GENERAL ELEMENTS-------------- */
+body {
+    font-size: 1rem;
+    color: #33302E;
+}
+
+.element {
+    padding-bottom: 2rem;
+    border-top-width: 0.05rem;
+    border-top-style: solid;
+    border-top-color: #33302E;
+}
+
+code {
+    font-size: 0.9rem;
+    background-color: #EEE;
+    padding: 0.5rem;
+    display: block;
+}
+
+/* -------------GERNERAL ELEMENTS-------------- */
+
+
+/* -------------INTERACTIVE ELEMENTS-------------- */
+
+.nav-link {
+    margin-right: 2rem;
+}
+
+.nav-link, .in-text-link {
+    font-family: "lato", sans-serif;
+    text-decoration: none;
+    color: #33302E;
+    display: inline-block;
+}
+
+.in-text-link:active, .in-text-link:hover, .in-text-link:focus, 
+.nav-link:active, .nav-link:hover, .nav-link:focus {
+    animation:colorchange 0.5s infinite alternate;
+}
+
+.in-text-link {
+    transition-duration: 0.8s;   
+}
+
+.in-text-link:active, .in-text-link:hover, .in-text-link:focus {
+    letter-spacing: 0.2rem;
+}
+
+@keyframes colorchange {
+/* ref from: https://codepen.io/raaasin/pen/quvHr */
+    0% {
+      color: blue;
+    }
+    
+    10% {
+      color: #8e44ad;
+    }
+    
+    20% {
+      color: #225e52;
+    }
+    
+    30% {
+      color: #d35400;
+    }
+    
+    40% {
+      color: blue;
+    }
+    
+    50% {
+      color: #34495e;
+    }
+    
+    60% {
+      color: blue;
+    }
+    
+    70% {
+      color: #2980b9;
+    }
+
+    80% {
+      color: #f1c40f;
+    }
+    
+    90% {
+      color: #2980b9;
+    }
+    
+    100% {
+      color: pink;
+    }
+  }
+
+/* -------------INTERACTIVE ELEMENTS-------------- */
+
+
+/* -------------TEXT ELEMENTS-------------- */
+h1 {
+    font-family: "Playfair Display", serif;
+    font-weight : 700;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    font-weight : 500;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.9rem;
+}
+
+h4 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+p, ol, ul {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+}
+/* -------------TEXT ELEMENTS-------------- */
+
+
+/* -------------COMBINED ELEMENTS-------------- */
+
+/* -------------COMBINED ELEMENTS-------------- */

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>P01 - Style Guide Template</title>
+
+    <link rel = "stylesheet" href = "css/normalize.css">
+    <link rel = "stylesheet" href = "css/style.css">
+    <link rel = "stylesheet" href = "css/grid.css">
+    <link href = "https://fonts.googleapis.com/css?family=Lato:300,400|Playfair+Display:400,700|Roboto+Mono" rel= "stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <h1>portfolio: style guide</h1>
+
+      <nav>        
+        <a class = "nav-link" href = "#interactive_elements">interactive elements</a>
+        <a class = "nav-link" href = "#text_elements">text elements</a>
+        <a class = "nav-link" href = "#citations">citations</a>
+      </nav>
+
+<!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+        <h2>interactive elements</h2>
+  
+        <section class="element">
+          <h3>in-text link</h3>
+  
+          <h4>css selector:</h4>
+          <p>.in-text-link</p>
+  
+          <h4>sample code:</h4>
+          <code>
+            &lt;p&gt;Hello this is an &lt;a href="#" class = "in-text-link"&gt;in-text link.&lt;/a&gt;&lt;p&gt;
+          </code>
+  
+          <h4>rendered element:</h4>
+          <p>Hello this is an <a href="#" class = "in-text-link">in-text-link.</a></p>
+        
+        </section>
+  
+        <section class="element">
+          <h3>image as a link</h3>
+          
+          <h4>css selector:</h4>
+          <p>.img-as-link</p>
+  
+          <h4>sample code:</h4>
+          <code>
+            &lt;a href="#"&gt;&lt;img class = "img-as-link" alt = "img" src = "orange.png" width=200&gt;&lt;/a&gt;
+          </code>
+          
+          <h4>rendered element:</h4>
+          <a href="#" ><img class = "img-as-link" alt = "img" src = "img/orange.png" width=200></a>
+        </section>
+  
+  
+    </section>
+<!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+<!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+        <h2>text elements</h2>
+
+        <section class="element">
+        <h3>headings</h3>
+
+        <h4>css selector:</h4>
+        <p>h1</p>
+        <p>h2</p>
+        <p>h3</p>
+        <p>h4</p>
+
+        <h4>sample code:</h4>
+        <code>&lt;h1&gt;Heading1&lt;/h1&gt;</code>
+        <code>&lt;h2&gt;Heading2&lt;/h2&gt;</code>
+        <code>&lt;h3&gt;Heading3&lt;/h3&gt;</code>
+        <code>&lt;h4&gt;Heading4&lt;/h4&gt;</code>
+
+        <h4>rendered element:</h4>
+        <h1>Heading1</h1>
+        <h2>Heading2</h2>
+        <h3>Heading3</h3>
+        <h4>Heading4</h4>
+        </section>
+            
+        <!-- <h1>Heading</h1> -->
+
+        <section class="element">
+        <h3>paragraphs</h3>
+
+        <h4>css selector:</h4>
+        <p>p</p>
+
+        <h4>sample code:</h4>
+        <code>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at posuere purus, nec facilisis nunc. Nunc tempor hendrerit ante, at faucibus neque lacinia id. Phasellus porta consectetur ante eget dapibus. Duis non interdum enim. Aenean et vestibulum tortor. Curabitur felis sapien, ultrices in nibh non, rutrum vulputate velit. Pellentesque volutpat lacinia leo, malesuada suscipit mi egestas sed. Quisque ac consectetur eros. Vestibulum ornare risus consequat hendrerit varius. Donec mollis lectus sed tristique rhoncus. Phasellus dignissim orci et mollis mattis. Donec ipsum dolor, efficitur eu feugiat et, ullamcorper et libero. Aliquam consectetur mi non vestibulum porta. Aliquam maximus placerat purus eu congue. Nunc nunc velit, cursus a rhoncus congue, imperdiet ac odio.&lt;/p&gt;</code>
+        
+        <h4>rendered element:</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at posuere purus, nec facilisis nunc. Nunc tempor hendrerit ante, at faucibus neque lacinia id. Phasellus porta consectetur ante eget dapibus. Duis non interdum enim. Aenean et vestibulum tortor. Curabitur felis sapien, ultrices in nibh non, rutrum vulputate velit. Pellentesque volutpat lacinia leo, malesuada suscipit mi egestas sed. Quisque ac consectetur eros. Vestibulum ornare risus consequat hendrerit varius. Donec mollis lectus sed tristique rhoncus. Phasellus dignissim orci et mollis mattis. Donec ipsum dolor, efficitur eu feugiat et, ullamcorper et libero. Aliquam consectetur mi non vestibulum porta. Aliquam maximus placerat purus eu congue. Nunc nunc velit, cursus a rhoncus congue, imperdiet ac odio.</p>
+        </section>
+
+        <section class="element">
+        <h3>numbered Lists</h3>
+
+        <h4>css selector:</h4>
+        <p>ol</p>
+
+        <h4>sample code:</h4>
+        <code>&lt;ol&gt;
+            &lt;li&gt;number 1&lt;/li&gt;
+            &lt;li&gt;number 2&lt;/li&gt;
+            &lt;li&gt;number 3&lt;/li&gt;
+            &lt;/ol&gt;
+        </code>
+
+        <h4>rendered element:</h4>
+        <ol>
+            <li>number 1</li>
+            <li>number 2</li>
+            <li>number 3</li>
+        </ol>
+        </section>
+
+    </section>
+<!-- // TEXT ELEMENTS SECTION -->
+
+
+
+<!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+      </section>
+
+      <section class="element">
+        <h3>Product/Service Listing</h3>
+      </section>
+    </section>
+<!-- // COMBINED ELEMENTS SECTION -->
+
+
+
+    <section id="citations">
+      <h2>Citations</h2>
+
+      <ul>
+        <li>Dziedzic, Lukasz. Designer. 1989. <strong>Lato [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/Lato">https://fonts.google.com/specimen/Lato</a></li>
+        <li>Robertson, Christian. Designer. 2011. <strong>Roboto Mono [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/Roboto+Mono">https://fonts.google.com/specimen/Roboto+Mono</a></li>
+        <li>Sorensen, Claus. Designer. 2017. <strong>Playfair Display [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/Playfair+Display">https://fonts.google.com/specimen/Playfair+Display</a></li>
+      </ul>
+
+    </section>
+
+
+
+  </body>
+</html>
