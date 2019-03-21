@@ -1,0 +1,78 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2rem 6rem 0rem 6rem;
+}
+
+.vertical.element{
+    position: fixed;
+    top: 45%;
+    left: 0rem;
+}
+
+#home.element {
+    position: fixed;
+    top: 30%;
+}
+
+#aboutme, #projects {
+    padding-right: 1rem;
+}
+/* *, *::after, *::before {
+    box-sizing: border-box;
+}
+
+nav {
+    margin: 8.56% 8.56% 0 8.56%;
+}
+
+.element {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-link-container {
+    display: flex;
+}
+
+.col_10_of_10 {
+	width: 100%;
+}
+
+.col_9_of_10 {
+  	width: 89.84%;
+}
+
+.col_8_of_10 {
+  	width: 79.68%;
+}
+
+.col_7_of_10 {
+  	width: 69.52%;
+}
+
+.col_6_of_10 {
+  	width: 59.36%;
+}
+
+.col_5_of_10 {
+  	width: 49.2%;
+}
+
+.col_4_of_10 {
+  	width: 39.04%;
+}
+
+.col_3_of_10 {
+  	width: 28.88%;
+}
+
+.col_2_of_10 {
+  	width: 18.72%;
+}
+
+.col_1_of_10 {
+  	width: 8.56%;
+} */
