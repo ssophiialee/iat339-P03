@@ -30,6 +30,14 @@ img {
   width: 100%;
 }
 
+img.for-project {
+  border: 1px solid #BFB4AC;
+}
+
+button:focus {
+  outline: 0;
+}
+
 /* -------------GERNERAL ELEMENTS-------------- */
 
 
@@ -47,8 +55,11 @@ img {
   float: left;
 }
 
+.nav-link.for-project {
+  float: left;
+}
 
-.nav-link, .in-text-link {
+.nav-link, .in-text-link, .text-link {
   font-family: "Playfair Display", serif;
   text-decoration: none;
   color: #33302E;
@@ -60,7 +71,8 @@ img {
   transition-duration: 0.8s;  
 }
 
-.in-text-link:active, .in-text-link:hover, .in-text-link:focus, 
+.in-text-link:active, .in-text-link:hover, .in-text-link:focus,
+.text-link:active, .text-link:hover, .text-link:focus,  
 .nav-link:active, .nav-link:hover, .nav-link:focus {
 /* ref from: https://codepen.io/raaasin/pen/quvHr */
     animation:colorchange 4s infinite alternate;
@@ -85,6 +97,25 @@ img {
   transition: 2s;
 }
 
+.img-slide {
+  display: none;
+}
+
+.img-slide-button {
+  color: #33302E;
+  background-color: white;
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.9rem;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.selected {
+  text-decoration: underline;
+}
+
+
 /* -------------TEXT ELEMENTS-------------- */
 h1 {
     font-family: "Playfair Display", serif;
@@ -102,7 +133,7 @@ h3 {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 1rem;
-    margin-bottom: none;
+    margin-bottom: 0;
 }
 
 h4 {
@@ -125,6 +156,8 @@ p, ol, ul {
     line-height: 1.3rem;
     font-size: 0.9rem;
 }
+
+
 /* -------------TEXT ELEMENTS-------------- */
 
 

@@ -6,17 +6,23 @@ body {
     margin: 2rem 6rem 0rem 6rem;
 }
 
-footer {
-    position:fixed;
-    top: 93%;
-
-}
-
 .vertical.element{
     position: fixed;
     top: 45%;
     left: 0rem;
+}
 
+#styleguide{
+    position: fixed;
+    top: 78%;
+    right: 0rem;
+}
+
+#github{
+    margin-top: 1rem;
+    position: fixed;
+    top: 85%;
+    right: 0.5rem;
 }
 
 #home.element {
@@ -28,66 +34,76 @@ footer {
     margin-top: 7rem;
 }
 
-#about, #projects {
+#about, #projects{
     padding-right: 1rem;
 }
 
+
+/* -------------BODY CONTENT-------------- */
+
 .bodycontent {
-    padding-top: 2rem;
-}
-/* *, *::after, *::before {
-    box-sizing: border-box;
+    /* padding-top: 2rem; */
+    margin-top: 5rem;
 }
 
-nav {
-    margin: 8.56% 8.56% 0 8.56%;
+h3.for-project{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
 }
 
-.element {
-    display: flex;
-    flex-wrap: wrap;
+h4.for-project{
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
 }
 
-.nav-link-container {
-    display: flex;
+p.for-project{
+    margin-top: 0;
 }
 
-.col_10_of_10 {
-	width: 100%;
+.img-slide-control {
+    text-align: center;
+    margin-top: 2rem;
 }
 
-.col_9_of_10 {
-  	width: 89.84%;
+.img-slide-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.col_8_of_10 {
-  	width: 79.68%;
+@media screen and (max-width: 600px) {
+    .nav-link {
+        float: none;
+        width: 100%;
+    }
+
+    #main.nav-link {
+        margin-bottom: 1rem;
+    }
+
+    body {
+        margin: 2rem 4rem 0rem 4rem;
+    }
 }
 
-.col_7_of_10 {
-  	width: 69.52%;
+@media screen and (max-height: 500px) {
+    #styleguide{
+        top: 40%;
+    }
+    
+    #github{
+        margin-top: 1rem;
+        position: fixed;
+        top: 60%;
+        right: 0.6rem;
+    }
 }
 
-.col_6_of_10 {
-  	width: 59.36%;
-}
 
-.col_5_of_10 {
-  	width: 49.2%;
+@media screen and (max-height: 250px) {
+    #styleguide, #github {
+        display: none;
+    }
 }
-
-.col_4_of_10 {
-  	width: 39.04%;
-}
-
-.col_3_of_10 {
-  	width: 28.88%;
-}
-
-.col_2_of_10 {
-  	width: 18.72%;
-}
-
-.col_1_of_10 {
-  	width: 8.56%;
-} */

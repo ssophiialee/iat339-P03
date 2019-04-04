@@ -5,3 +5,7 @@
 body {
     margin: 2rem;
 }
+
+#portfolio, #interactive_elements, #text_elements, #citations {
+    padding-right: 1rem;
+}

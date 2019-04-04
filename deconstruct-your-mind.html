@@ -3,6 +3,7 @@
     <head>
 
         <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width,initial-scale = 1">
         <title>P01 - Style Guide Template</title>
     
         <link rel = "stylesheet" href = "css/normalize.css">
@@ -17,33 +18,75 @@
                 <a id = "main" class = "nav-link" href = "home.html">sophia eunji lee</a>        
                 <a class = "nav-link" href = "contact.html">contact</a>
                 <a id = "about" class = "nav-link" href = "about.html">about me</a>
-                <a id = "projects" class = "nav-link" href = "projects.html">projects</a>
+                <a id = "projects" class = "active nav-link" href = "projects.html">projects</a>
             </nav>
         </header>
 
         <section class = "element">
             <h1>deconstruct your mind</h1>
             <h2>
-                Decontstruct Your Mind was a case-study to understand architect versus architecture in context to the milieu. Vitra Fire Station by Zaha Hadid was the case for our project. In a team of 5, I was in charge of content strategy and writing.
+                Decontstruct Your Mind was a case-study to understand the relation of architect and architecture in context. In 1-week, each group had to build a physical model and compose an article in 11x17 poster. Vitra Fire Station by Zaha Hadid was the case of our project, and I was in charge of content strategy and writing.
             </h2>
-            <h4>01 / 02 <a href = "lost-in-nightfall.html"> > </a></h4>
+            <h4 class = "for-project">01 / 02 <a href = "lost-in-nightfall.html"> &gt; </a></h4>
+        
+            <nav>
+                <a class = "text-link for-project" href = "#result">jump to result</a>
+            </nav>
+
+            <section class = "vertical element">
+                    <h4 class = "vertical-text">2018.03.xx</h4>
+            </section>
 
             <section class = "bodycontent">
-                <h3>context: 1-week case study</h3>
-                <h3>contribution: content strategy, writing</h3>
+                <h3 class = "for-project">context: 1-week case study</h3>
+                <h3 class = "for-project">contribution: content strategy, writing</h3>
+                <h3 class = "for-project">team members: Maggie Chan, Jinlin Li, Hammad Jawaid, Alex Lazimir</h3>
 
-
-                <h4>progress</h4>
+                <h4 class = "for-project">problem + limitation</h4>
                 <p>
-                    I researched about Hadid and her architecture prior to strategizing my content by listening to her interviews and reading her biographies. After grasping the general idea, I narrowed my scope to the specific topics that I wanted to write about.
+                    The main limitation for the project was insufficient time with general scope. The project did not assign any areas to focus, therefore it was entirely up to us to decide on content strategy and complementing art direction.
+                </p>
+
+                <h4 class = "for-project">role</h4>
+                <p>
+                    In a team of 5, I was in charge of content strategy and writing. First, I researched about Zaha Hadid and her architecture before strategizing my content to grasp the general idea. I began by listening to her interviews, biographies, and scholarly reviewed articles that gears towards to structures that Hadid directly worked on, to learn Hadid’s personal aesthetic. Then I narrowed down the scope to topics that are specific to Vitra Fire Station. After research, I wanted to organize the sections in article to which those who visit the Vitra Fire Station would experience the space for the reader to imagine throughout the article.
                 </p>
             
-                <img alt = "deconstruct-your-mind.png" src = "img/deconstruct-your-mind.png">
+                <p>
+                    In order to visually communicate the concept, I worked closely with the art director to create the moodboard. Our art direction intended to promote Hadid’s non-conforming ideology and geometrically bold approach. Therefore we decided to experiment with a diagonal composition to enhance the non-parallel form by utilizing the aspects of suprematism in geometric shapes and minimal embellishments.
+                </p>
+
+                <section id = "result">
+                    <h4 class = "for-project">result</h4>
+                    <p>
+                        Despite the limitation of short time period, the project turned out quite successfully. The project received the highest mark in the class for creating a complementing graphic design and in-depth content.
+                    </p>
+                    
+                    <div class="img-slide-control">
+                        <button class="img-slide-button demo" onclick="currentDiv(1)">project</button> 
+                        <button class="img-slide-button demo" onclick="currentDiv(2)">content strategy</button> 
+                        <button class="img-slide-button demo" onclick="currentDiv(3)">moodboard</button> 
+
+                        <div class="img-slide-section">
+                            <button class="img-slide-button" onclick="plusDivs(-1)">❮ Prev</button>
+                            <button class="img-slide-button" onclick="plusDivs(1)">Next ❯</button>
+                        </div>
+                    </div>
+                    
+                    <div class="img-slide-content" style="max-width:800px">         
+                        <img class="img-slide for-project" alt = "deconstruct-your-mind.png" src = "img/deconstruct-your-mind.png">
+                        <img class="img-slide for-project" alt = "233-Vitra2-ContentStructure.png" src = "img/233-Vitra2-ContentStructure.png">
+                        <img class="img-slide for-project" alt = "233-Vitra2-moodboard.png" src = "img/233-Vitra2-moodboard.png">
+                    </div>
+                    
+                    <script type="text/javascript" src="img-slide-script.js"></script>
+                </section>
             </section>
         </section>
         
         <section>
-            <a class = "footer" href = "index.html">styleguide</a>   
+            <a id = "styleguide" class = "vertical-text text-link footer" href = "index.html" target="_blank">styleguide</a>
+            <a id = "github" class = "vertical-text text-link footer" href = "https://github.com/ssophiialee/iat339-P03" target="_blank">github</a>      
         </section>
     </body>
 </html>

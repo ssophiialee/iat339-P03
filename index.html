@@ -3,6 +3,7 @@
   <head>
 
     <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width,initial-scale = 1">
     <title>P01 - Style Guide Template</title>
 
     <link rel = "stylesheet" href = "css/normalize.css">
@@ -18,10 +19,10 @@
       <h2>hi, my name is sophia lee and this is my portfolio styleguide</h2>
 
       <nav>
-        <a class = "nav-link" href = "home.html">portfolio</a>        
-        <a class = "nav-link" href = "#interactive_elements">interactive elements</a>
-        <a class = "nav-link" href = "#text_elements">text elements</a>
-        <a class = "nav-link" href = "#citations">citations</a>
+        <a id = "portfolio" class = "nav-link" href = "home.html">portfolio</a>        
+        <a id = "interactive_elements" class = "nav-link" href = "#interactive_elements">interactive elements</a>
+        <a id = "text_elements" class = "nav-link" href = "#text_elements">text elements</a>
+        <a id = "citations" class = "nav-link" href = "#citations">citations</a>
       </nav>
     </header>
 
@@ -44,6 +45,22 @@
           <p>Hello this is an <a href="#" class = "in-text-link">in-text-link.</a></p>
         
         </section>
+
+        <section class="styleguide element">
+            <h3>text link</h3>
+    
+            <h4>css selector:</h4>
+            <p>.text-link</p>
+    
+            <h4>sample code:</h4>
+            <code>
+              &lt;a href="#" class = "text-link"&gt;text link.&lt;/a&gt;
+            </code>
+    
+            <h4>rendered element:</h4>
+            <a href="#" class = "text-link">text-link.</a>
+          
+          </section>
   
         <section class="styleguide element">
           <h3>image as a link</h3>
@@ -53,7 +70,7 @@
   
           <h4>sample code:</h4>
           <code>
-            &lt;a href="#"&gt;&lt;img class = "img-as-link" alt = "img" src = "orange.png" width=200&gt;&lt;/a&gt;
+            &lt;a href="#"&gt;&lt;img class = "img-as-link" alt = "img" src = "img/lost-in-nightfall.png"&gt;&lt;/a&gt;
           </code>
           
           <h4>rendered element:</h4>
@@ -143,16 +160,11 @@
 
         <nav>
           <a id = "main" class = "nav-link" href = "home.html">sophia eunji lee</a>                
-          <a class = "nav-link" href = "#interactive_elements">interactive elements</a>
-          <a class = "nav-link" href = "#text_elements">text elements</a>
-          <a class = "nav-link" href = "#citations">citations</a>
+          <a id = "interactive_elements" class = "nav-link" href = "#interactive_elements">interactive elements</a>
+          <a id = "text_elements" class = "nav-link" href = "#text_elements">text elements</a>
+          <a id = "citations" class = "nav-link" href = "#citations">citations</a>
         </nav>
       </section>
-
-      <!-- <section class="element">
-        <h3>Product/Service Listing</h3>
-      </section>
-    </section> -->
 
     <section class = "styleguide element">
       <h1>Urban Precedence: Chunggyechun</h1>
@@ -171,6 +183,7 @@
       <h2>Citations</h2>
 
       <ul>
+        <li>Data, Refsnes. Designer. 2019. <strong>W3Schools [Info]</strong>. Retrieved from <a href="https://www.w3schools.com/">https://www.w3schools.com/</a></li>
         <li>Dziedzic, Lukasz. Designer. 1989. <strong>Lato [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/Lato">https://fonts.google.com/specimen/Lato</a></li>
         <li>Robertson, Christian. Designer. 2011. <strong>Roboto Mono [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/Roboto+Mono">https://fonts.google.com/specimen/Roboto+Mono</a></li>
         <li>Sorensen, Claus. Designer. 2017. <strong>Playfair Display [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/Playfair+Display">https://fonts.google.com/specimen/Playfair+Display</a></li>

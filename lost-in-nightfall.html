@@ -3,6 +3,7 @@
     <head>
 
         <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width,initial-scale = 1">
         <title>P01 - Style Guide Template</title>
     
         <link rel = "stylesheet" href = "css/normalize.css">
@@ -17,33 +18,81 @@
                 <a id = "main" class = "nav-link" href = "home.html">sophia eunji lee</a>        
                 <a class = "nav-link" href = "contact.html">contact</a>
                 <a id = "about" class = "nav-link" href = "about.html">about me</a>
-                <a id = "projects" class = "nav-link" href = "projects.html">projects</a>
+                <a id = "projects" class = "active nav-link" href = "projects.html">projects</a>
             </nav>
         </header>
 
         <section class = "element">
             <h1>lost in nightfall</h1>
             <h2>
-                    Lost in Nightfall is a short film about a solitary woman wading through the darkness of her mundane life. She desperately seeks ways to cope as she struggles to decide how much pain should be beared for the sake of love.
+                Lost in Nightfall is a short film about a solitary woman wading through the darkness of her mundane life. She desperately seeks ways to cope as she struggles to decide how much pain should be beared for the sake of love.
             </h2>
-            <h4><a href = "deconstruct-your-mind.html"> < </a>01 / 02</h4>
+            <h4 class = "for-project"><a href = "deconstruct-your-mind.html">  &lt; </a>02 / 02</h4>
+        
+            <nav>
+                <a class = "text-link for-project" href = "#result">jump to result</a>
+            </nav>
+
+            <section class = "vertical element">
+                    <h4 class = "vertical-text">2018.10-11</h4>
+            </section>
 
             <section class = "bodycontent">
-                <h3>context: 5-week course project</h3>
-                <h3>contribution: scriptwriting, production</h3>
+                <h3 class = "for-project">context: 5-week course project</h3>
+                <h3 class = "for-project">contribution: scriptwriting,pre-production, production</h3>
+                <h3 class = "for-project">team members: Maggie Chan, Jinlin Li</h3>
 
-
-                <h4>progress</h4>
+                <h4 class = "for-project">problem + limitation</h4>
                 <p>
-                        As a short film project, it was strategized into 3 parts: pre-production, production, and post-production. Pre-production took part in mainly ideation, scriptwriting, and event planning. Production is the shooting, then post-production includes editing.
+                    The main concern and limitation through out the project were continuity and time management. The project was only given 5 week to ideate, scout location, casts, film, and edit the film with small team of 3 and low budget. The time and budget did not allow test shooting nor location assessment prior to the actual shooting days.
+                </p>
+
+                <p>
+                     As a short film project, the process was divided into 3 parts: pre-production, production, and post-production. During pre-production, most ideations were done as a group. We had a mutual goal of creating a drama film therefore  we individually ideated different stories in the genre, then voted the one we wanted to move forward. After deciding the outline, we developed the story further as a group by finalizing the details and meanings within the film. We decided the shot list, moodboard, general location, and rough storyboard as a group. Our solution to allowing ourselves sufficient time for backup shooting and post-production was to minimize the variation of scenes to avoid shooting in various locations. The minimized scene variation also contributed to the simple aesthetic we wanted to achieve in our film.
                 </p>
             
-                <img alt = "lost-in-nightfall.png" src = "img/lost-in-nightfall.png">
+                <h4 class = "for-project">role</h4>
+                <p>
+                    For pre-production, I was in charge of refining the storyboard and scouting for locations for the office scene. I searched for co-working spaces in lower mainland, then contacted the ones that matched our vision. During production, I assisted in following the production schedule to assure all shots are filmed. I was also responsible to propose different shots and angles that utilize the space better in order to allow more variation during editing, which will also enhance continuity. Also, I assisted in handling equipments such as sound and lighting.
+                </p>
+
+                <section id = "result">
+                    <h4 class = "for-project">result</h4>
+                    <p>
+                        Not only the project received high mark from the course instructors, we received the “Best Film Award” of the semester. Particularly, the film was complemented for handling mature, in-depth content with articulated cinematography and art direction.
+                    </p>
+                    
+                    <div class="img-slide-control">
+                        <button class="img-slide-button demo" onclick="currentDiv(1)">project</button> 
+                        <button class="img-slide-button demo" onclick="currentDiv(2)">moodboard</button> 
+                        <button class="img-slide-button demo" onclick="currentDiv(3)">award</button>
+                        <button class="img-slide-button demo" onclick="currentDiv(4)">storyboard</button> 
+                        <button class="img-slide-button demo" onclick="currentDiv(5)">production-1</button>
+                        <button class="img-slide-button demo" onclick="currentDiv(6)">production-2</button>   
+
+                        <div class="img-slide-section">
+                            <button class="img-slide-button" onclick="plusDivs(-1)">❮ Prev</button>
+                            <button class="img-slide-button" onclick="plusDivs(1)">Next ❯</button>
+                        </div>
+                    </div>
+                    
+                    <div class="img-slide-content" style="max-width:800px">         
+                        <a href = "https://www.youtube.com/watch?v=DMqQVETD_JI" target = "_blank"><img class="img-slide for-project img-as-link" alt = "lost-in-nightfall.png" src = "img/lost-in-nightfall.png"></a>
+                        <img class="img-slide for-project" alt = "moodboard.jpg" src = "img/moodboard.jpg">
+                        <img class="img-slide for-project" alt = "course-website.jpg" src = "img/course-website.jpg">
+                        <img class="img-slide for-project" alt = "storyboard.png" src = "img/Storyboard.png">
+                        <img class="img-slide for-project" alt = "production-01.jpg" src = "img/production-01.jpg">
+                        <img class="img-slide for-project" alt = "production-02.jpg" src = "img/production-02.jpg">
+                    </div>
+                    
+                    <script type="text/javascript" src="img-slide-script.js"></script>
+                </section>
             </section>
         </section>
-
-        <section>
-            <a class = "footer" href = "index.html">styleguide</a>   
+        
+        <section id = "footer">
+            <a id = "styleguide" class = "vertical-text text-link footer" href = "index.html" target="_blank">styleguide</a>
+            <a id = "github" class = "vertical-text text-link footer" href = "https://github.com/ssophiialee/iat339-P03" target="_blank">github</a>      
         </section>
     </body>
 </html>
