@@ -6,10 +6,17 @@ body {
     margin: 2rem 6rem 0rem 6rem;
 }
 
+footer {
+    position:fixed;
+    top: 93%;
+
+}
+
 .vertical.element{
     position: fixed;
     top: 45%;
     left: 0rem;
+
 }
 
 #home.element {
@@ -17,8 +24,16 @@ body {
     top: 30%;
 }
 
-#aboutme, #projects {
+.page.element {
+    margin-top: 7rem;
+}
+
+#about, #projects {
     padding-right: 1rem;
+}
+
+.bodycontent {
+    padding-top: 2rem;
 }
 /* *, *::after, *::before {
     box-sizing: border-box;
